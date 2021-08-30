@@ -1,0 +1,22 @@
+button {
+  background-image: linear-gradient(
+    to right,
+    #0287c5f8 2%,
+    #4830f0 51%,
+    #0287c5f8 98%
+  );
+
+  color: white;
+  padding: 5px 15px;
+  margin: 5px 10px;
+}
+body {
+  background-image: url(/src/image/back.png) 100%;
+
+  min-height: 500%;
+  font-family: "Arial", sans-serif;
+}
+
+#myCheck {
+  display: flex;
+}

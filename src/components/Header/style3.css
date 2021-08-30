@@ -1,0 +1,100 @@
+h1 {
+  padding: 15px;
+  color: rgb(255, 255, 255);
+
+  background: radial-gradient(rgb(128 128 128 / 80%), rgba(0, 47, 255, 0.589));
+  text-align: center;
+  font-family: "Russo One", sans-serif;
+  background-image: linear-gradient(
+    to right,
+    #4d4d4d 0%,
+    #4830f0 51%,
+    #4d4d4d 100%
+  );
+}
+
+.sub-header {
+  padding: 5px;
+  color: rgb(39, 0, 131);
+  font-size: 20px;
+  font-weight: 800;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 5px 15px;
+  margin: 5px 10px;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-image: linear-gradient(
+    to right,
+    #a06dff 0%,
+    #4830f0 50%,
+    #a06dff 100%
+  );
+  background-size: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
+.left {
+  justify-content: left;
+  display: contents;
+  text-align: left;
+}
+button {
+  display: contents;
+  color: rgb(255, 123, 123);
+  transition: 0.5s;
+}
+
+button:hover {
+  color: rgb(239, 237, 245);
+}
+.but {
+  padding: 5px;
+  color: rgb(39, 0, 131);
+  font-size: 20px;
+  font-weight: 800;
+  justify-content: center;
+  justify-content: space-between;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 15px;
+  margin: 5px 10px;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-image: linear-gradient(
+    to right,
+    #a06dff 0%,
+    #4830f0 50%,
+    #a06dff 100%
+  );
+  background-size: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
+.bold {
+  text-transform: uppercase;
+}
+body {
+  background-image: url(/src//image/back.png);
+  min-height: 100%;
+  font-family: "Arial", sans-serif;
+}
+#myCheck {
+  display: flex;
+
+  margin: 5px 10px;
+  height: 20px;
+  width: 30px;
+}
+.divbut {
+  display: flex;
+}
